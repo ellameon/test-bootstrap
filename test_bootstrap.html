@@ -9,7 +9,7 @@
     <title>Тест бутстрапа</title>
 </head>
 <body>
-<div class="container-fluid">
+<div class="container-fluid bg-light">
     <ul class="nav nav-tabs bg-light">
         <li class="nav-item"><a href="#" class="nav-link text-dark" >Таблица маршрутизации</a></li>
         <li class="nav-item"><a href="#" class="nav-link text-dark">Группы направлений</a></li>
@@ -22,14 +22,14 @@
     </ul>
 </div>
 
-<div class="container-fluid py-4">
-    <nav aria-label="breadcrumb">
+<div class="card-header m-3 ms-0 me-0">
+     <nav aria-label="breadcrumb">
     <ol class="breadcrumb bg-light ">
         <li class="breadcrumb-item"><a href="#">Все направления</a></li>
         <li class="breadcrumb-item active" aria-current="page">dir1</li>
     </ol>
 </nav>
-</div>
+</div><div class="card"></div>
 
 <div class="card">
     <div class="card-header bg-light justify-content-md-start">
@@ -39,7 +39,7 @@
 </div>
 
 
-    <div class="container-fluid">
+    <div class="card mb-3">
         <nav class="navbar  ">
             <div class="container-fluid justify-content-md-start">
                 <a class="navbar-brand" href="#">group1</a>
@@ -51,7 +51,7 @@
         </nav>
     </div>
 
-<div class="card">
+<div class="card ">
     <div class="container-fluid">
         <div class="row row-cols-2 row-cols-lg-2">
             <div class="col-sm-4">Название
@@ -106,7 +106,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="container-fluid d-flex justify-content-md-start py-3">
             <div class="col-md-auto">
                 <input type="checkbox">
             </div>
@@ -115,10 +115,10 @@
     </div>
 
 
-    <div class="card   py-4">
+    <div class="card  d-flex   border-0  px-4 ">
 
-<div class="row overflow-hidden">
-    <div class="card col-md-6 " >
+<div class="row  pb-5">
+    <div class="card col-md-6 px-0 me-5" >
         <div class="card-header">Ограничения</div>
             <table class="table table-borderless">
                 <thead>
@@ -154,9 +154,9 @@
 
     </div>
 
-    <div class="card col-sm-6" >
+    <div class="card col px-0 " >
         <div class="card-header d-flex  justify-content-between">Фильтр
-            <div class="btn-group-sm" role="group" >
+            <div class="btn-group btn-group-sm" role="group" aria-label="...">
                 <button type="button" class="btn  btn-outline-dark"><img src="plus_icon-icons.com_70890 (1).png"
                                                                         height="10" width="10"/></button>
                 <button type="button" class="btn btn-outline-dark"><img
@@ -190,9 +190,9 @@
 </div>
 
 
-    <div class="card-header d-flex justify-content-between">
+    <div class="card-header d-flex justify-content-between gy-5 g-5">
        Список привязанных маршрутов
-        <div class="btn-group-sm" role="group" >
+        <div class="btn-group btn-group-sm" role="group" aria-label="...">
             <button type="button" class="btn  btn-outline-dark"><img src="plus_icon-icons.com_70890 (1).png"
                                                                      height="10" width="10"/></button>
             <button type="button" class="btn btn-outline-dark"><img
