@@ -9,54 +9,48 @@
     <title>Тест бутстрапа</title>
 </head>
 <body>
-<div class="container-fluid bg-light">
-    <ul class="nav nav-tabs bg-light">
-        <li class="nav-item"><a href="#" class="nav-link text-dark" >Таблица маршрутизации</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-dark">Группы направлений</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-dark">Направления</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-dark">Маршруты</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-dark">Шлюзы</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-dark">Прокси</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-dark">Сеть</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-dark">Медиа</a></li>
-    </ul>
-</div>
 
-<div class="card-header m-3 ms-0 me-0">
-     <nav aria-label="breadcrumb">
-    <ol class="breadcrumb bg-light ">
-        <li class="breadcrumb-item"><a href="#">Все направления</a></li>
+    <ul class="nav nav-tabs bg-light m-0 p-0">
+        <li class="nav-item"><a href="#" class="nav-link text-secondary" >Таблица маршрутизации</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-secondary">Группы направлений</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-secondary ">Направления</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-secondary">Маршруты</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-secondary">Шлюзы</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-secondary">Прокси</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-secondary">Сеть</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-secondary">Медиа</a></li>
+    </ul>
+    <div class="card border-0">
+<div class="card-header m-3 ms-0 me-0 ">
+     <nav aria-label="breadcrumb ">
+    <ol class="breadcrumb bg-light m-0  ">
+        <li class="breadcrumb-item"><a class="card-link  text-decoration-none" aria-current="page"  href="#" >Все направления</a></li>
         <li class="breadcrumb-item active" aria-current="page">dir1</li>
     </ol>
-</nav>
-</div><div class="card"></div>
+     </nav></div>
+
+
 
 <div class="card">
-    <div class="card-header bg-light justify-content-md-start">
+    <div class="card-header bg-light ">
     Входит в группы
     </div>
-
-</div>
-
-
-    <div class="card mb-3">
-        <nav class="navbar  ">
-            <div class="container-fluid justify-content-md-start">
-                <a class="navbar-brand" href="#">group1</a>
-                <a class="navbar-brand" href="#">group2</a>
-                <a class="navbar-brand" href="#">group3</a>
-                <a class="navbar-brand" href="#">group4</a>
-                <a class="navbar-brand" href="#">group5</a>
-            </div>
-        </nav>
+    <div class="card-body">
+           <a class="card-link px-3" aria-current="page" href="#">group1</a>
+           <a class="card-link px-3" aria-current="page" href="#">group2</a>
+           <a class="card-link px-3" aria-current="page" href="#">group3</a>
+           <a class="card-link px-3" aria-current="page" href="#">group4</a>
+           <a class="card-link px-3" aria-current="page" href="#">group5</a>
     </div>
+</div>
+<div class="card  border mb-3 mt-3">
 
-<div class="card ">
-    <div class="container-fluid">
+    <div class="card-body text-dark" style="font-weight: bold">
+
         <div class="row row-cols-2 row-cols-lg-2">
-            <div class="col-sm-4">Название
+            <div class="col-sm-4 ">Название
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control btn-outline-secondary">
+                    <input type="text" class="form-control">
                     <button type="button" class="btn btn-success  dropdown-toggle dropdown-toggle-split "
                             data-bs-toggle="dropdown" aria-expanded="false">
                         Разблокировано
@@ -64,25 +58,25 @@
 
                 </div>
             </div>
-            <div class="col-sm-8">Описание<input class="container-fluid form-control btn-outline-secondary"></div>
+            <div class="col-sm-8">Описание<input class="container-fluid form-control "></div>
             <div class="col-sm-4">Количество попыток ремаршрутизации
                 <div class="input-group mb-3">
-                    <button type="button" class="btn btn-outline-secondary dropdown-toggle-split" ><img
+                    <button type="button" class="btn  border dropdown-toggle-split" ><img
                             src="up-arrow_icon-icons.com_70835.png" height="16" width="16"/></button>
-                <input type="text" class="form-control btn-outline-secondary">
-                <button type="button" class="btn btn-outline-secondary  dropdown-toggle-split"
+                <input type="text" class="form-control ">
+                <button type="button" class="btn border  dropdown-toggle-split"
                         data-bs-toggle="dropdown" aria-expanded="false">
                     <img src="down-arrow_icon-icons.com_71215.png" height="16" width="16"/></button>
             </div>
 
             </div>
-            <div class="col-sm-8">Причины ремаршрутизации<input class="container-fluid form-control btn-outline-secondary"></div>
+            <div class="col-sm-8">Причины ремаршрутизации<input class="container-fluid form-control"></div>
         </div>
         <div class="row">
             <div class="col-sm-4">Сеть
                 <div class="input-group">
-                    <input type="text" class="form-control btn-outline-secondary">
-                    <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                    <input type="text" class="form-control ">
+                    <button type="button" class="btn border dropdown-toggle dropdown-toggle-split"
                             data-bs-toggle="dropdown" aria-expanded="false">
                     </button>
                 </div>
@@ -90,27 +84,27 @@
 
             <div class="col">Алгоритм
                 <div class="input-group">
-                    <input type="text" class="form-control btn-outline-secondary">
-                    <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                    <input type="text" class="form-control ">
+                    <button type="button" class="btn border dropdown-toggle dropdown-toggle-split"
                             data-bs-toggle="dropdown" aria-expanded="false">
                     </button>
                 </div>
             </div>
             <div class="col">Тариф
                 <div class="input-group">
-                    <input type="text" class="form-control btn-outline-secondary">
-                    <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                    <input type="text" class="form-control ">
+                    <button type="button" class="btn border dropdown-toggle dropdown-toggle-split"
                             data-bs-toggle="dropdown" aria-expanded="false">
                     </button>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid d-flex justify-content-md-start py-3">
-            <div class="col-md-auto">
-                <input type="checkbox">
+        <div class= "row pt-3 d-flex justify-content-md-start">
+            <div class="col-md-auto  m-0 pe-1">
+                <input type="checkbox" class="p-0 m-0 ">
             </div>
-            <div class="col-md-auto text-sm-end"> Anti Tromboning</div>
+            <div class="col-md-auto p-0"> Anti Tromboning</div>
         </div>
     </div>
 
