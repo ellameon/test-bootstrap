@@ -4,247 +4,263 @@
     <!-- Обязательные метатеги -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Тест бутстрапа</title>
 </head>
 <body>
 
-    <ul class="nav nav-tabs bg-light m-0 p-0">
-        <li class="nav-item"><a href="#" class="nav-link text-secondary" >Таблица маршрутизации</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-secondary">Группы направлений</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-secondary ">Направления</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-secondary">Маршруты</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-secondary">Шлюзы</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-secondary">Прокси</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-secondary">Сеть</a></li>
-        <li class="nav-item"><a href="#" class="nav-link text-secondary">Медиа</a></li>
-    </ul>
-    <div class="card border-0">
-<div class="card-header m-3 ms-0 me-0 ">
-     <nav aria-label="breadcrumb ">
-    <ol class="breadcrumb bg-light m-0  ">
-        <li class="breadcrumb-item"><a class="card-link  text-decoration-none" aria-current="page"  href="#" >Все направления</a></li>
-        <li class="breadcrumb-item active" aria-current="page">dir1</li>
-    </ol>
-     </nav></div>
+<ul class="nav nav-tabs bg-light m-0 p-0">
+    <li class="nav-item"><a href="#" class="nav-link text-secondary">Таблица маршрутизации</a></li>
+    <li class="nav-item"><a href="#" class="nav-link text-secondary">Группы направлений</a></li>
+    <li class="nav-item"><a href="#" class="nav-link text-secondary active">Направления</a></li>
+    <li class="nav-item"><a href="#" class="nav-link text-secondary">Маршруты</a></li>
+    <li class="nav-item"><a href="#" class="nav-link text-secondary">Шлюзы</a></li>
+    <li class="nav-item"><a href="#" class="nav-link text-secondary">Прокси</a></li>
+    <li class="nav-item"><a href="#" class="nav-link text-secondary">Сеть</a></li>
+    <li class="nav-item"><a href="#" class="nav-link text-secondary">Медиа</a></li>
+</ul>
 
-
-
-<div class="card">
-    <div class="card-header bg-light ">
-    Входит в группы
+<div class="card border-0">
+    <div class="card-header border-0 m-3 ms-0 me-0 ">
+        <nav aria-label="breadcrumb ">
+            <ol class="breadcrumb bg-light m-0  ">
+                <li class="breadcrumb-item"><a class="card-link  text-decoration-none" aria-current="page" href="#">Все
+                    направления</a></li>
+                <li class="breadcrumb-item active" aria-current="page">dir1</li>
+            </ol>
+        </nav>
     </div>
-    <div class="card-body">
-           <a class="card-link px-3" aria-current="page" href="#">group1</a>
-           <a class="card-link px-3" aria-current="page" href="#">group2</a>
-           <a class="card-link px-3" aria-current="page" href="#">group3</a>
-           <a class="card-link px-3" aria-current="page" href="#">group4</a>
-           <a class="card-link px-3" aria-current="page" href="#">group5</a>
-    </div>
-</div>
-<div class="card  border mb-3 mt-3">
 
-    <div class="card-body text-dark" style="font-weight: bold">
-
-        <div class="row row-cols-2 row-cols-lg-2">
-            <div class="col-sm-4 ">Название
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control">
-                    <button type="button" class="btn btn-success  dropdown-toggle dropdown-toggle-split "
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                        Разблокировано
-                    </button>
-
-                </div>
-            </div>
-            <div class="col-sm-8">Описание<input class="container-fluid form-control "></div>
-            <div class="col-sm-4">Количество попыток ремаршрутизации
-                <div class="input-group mb-3">
-                    <button type="button" class="btn  border dropdown-toggle-split" ><img
-                            src="up-arrow_icon-icons.com_70835.png" height="16" width="16"/></button>
-                <input type="text" class="form-control ">
-                <button type="button" class="btn border  dropdown-toggle-split"
-                        data-bs-toggle="dropdown" aria-expanded="false">
-                    <img src="down-arrow_icon-icons.com_71215.png" height="16" width="16"/></button>
-            </div>
-
-            </div>
-            <div class="col-sm-8">Причины ремаршрутизации<input class="container-fluid form-control"></div>
+    <div class="card">
+        <div class="card-header bg-light ">
+            Входит в группы
         </div>
-        <div class="row">
-            <div class="col-sm-4">Сеть
-                <div class="input-group">
-                    <input type="text" class="form-control ">
-                    <button type="button" class="btn border dropdown-toggle dropdown-toggle-split"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                    </button>
-                </div>
-            </div>
-
-            <div class="col">Алгоритм
-                <div class="input-group">
-                    <input type="text" class="form-control ">
-                    <button type="button" class="btn border dropdown-toggle dropdown-toggle-split"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                    </button>
-                </div>
-            </div>
-            <div class="col">Тариф
-                <div class="input-group">
-                    <input type="text" class="form-control ">
-                    <button type="button" class="btn border dropdown-toggle dropdown-toggle-split"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                    </button>
-                </div>
-            </div>
-        </div>
-
-        <div class= "row pt-3 d-flex justify-content-md-start">
-            <div class="col-md-auto  m-0 pe-1">
-                <input type="checkbox" class="p-0 m-0 ">
-            </div>
-            <div class="col-md-auto p-0"> Anti Tromboning</div>
+        <div class="card-body">
+            <a class="card-link px-3 text-decoration-none" aria-current="page" href="#">group1</a>
+            <a class="card-link px-3 text-decoration-none" aria-current="page" href="#">group2</a>
+            <a class="card-link px-3 text-decoration-none" aria-current="page" href="#">group3</a>
+            <a class="card-link px-3 text-decoration-none" aria-current="page" href="#">group4</a>
+            <a class="card-link px-3 text-decoration-none" aria-current="page" href="#">group5</a>
         </div>
     </div>
+    <div class="card  border mb-3 mt-3">
 
+        <div class="card-body text-dark" style="font-weight: bold">
 
-    <div class="card  d-flex   border-0  px-4 ">
+            <div class="row row-cols-2 row-cols-lg-2">
+                <div class="col-sm-4 ">Название
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control">
+                        <button type="button" class="btn btn-success  dropdown-toggle dropdown-toggle-split "
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                            Разблокировано
+                        </button>
 
-<div class="row  pb-5">
-    <div class="card col-md-6 px-0 me-5" >
-        <div class="card-header">Ограничения</div>
-            <table class="table table-borderless">
-                <thead>
-                <tr>
-                    <th scope="col"></th>
-                    <th scope="col">Вх</th>
-                    <th scope="col">Исх</th>
-                    <th scope="col">Все</th>
-                </tr>
-                </thead>
-                <tr class="table table-borderless">
-                   <th>Calls</th>
-                    <th><input class="container-fluid form-control"></th>
-                    <th><input class="container-fluid form-control"></th>
-                    <th><input class="container-fluid form-control"></th>
-                </tr>
-                <tr class="table table-borderless">
-                    <th>CPS</th>
-                    <th><input class="container-fluid form-control"></th>
-                    <th><input class="container-fluid form-control"></th>
-                    <th><input class="container-fluid form-control"></th>
-                </tr>
-                <tr class="table table-borderless">
-                    <th>AvgCPS</th>
-                    <th><input class="container-fluid form-control"></th>
-                    <th><input class="container-fluid form-control"></th>
-                    <th><input class="container-fluid form-control"></th>
-                </tr>
-            </table>
+                    </div>
+                </div>
+                <div class="col-sm-8">Описание<input class="container-fluid form-control "></div>
+                <div class="col-sm-4">Количество попыток ремаршрутизации
+                    <div class="input-group mb-3">
+                        <button type="button" class="btn  border dropdown-toggle-split"><img
+                                src="up-arrow_icon-icons.com_70835.png" height="16" width="16"/></button>
+                        <input type="text" class="form-control ">
+                        <button type="button" class="btn border  dropdown-toggle-split"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="down-arrow_icon-icons.com_71215.png" height="16" width="16"/></button>
+                    </div>
 
+                </div>
+                <div class="col-sm-8">Причины ремаршрутизации<input class="container-fluid form-control"></div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">Сеть
+                    <div class="input-group">
+                        <input type="text" class="form-control ">
+                        <button type="button" class="btn border dropdown-toggle dropdown-toggle-split"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                        </button>
+                    </div>
+                </div>
 
+                <div class="col">Алгоритм
+                    <div class="input-group">
+                        <input type="text" class="form-control ">
+                        <button type="button" class="btn border dropdown-toggle dropdown-toggle-split"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                        </button>
+                    </div>
+                </div>
+                <div class="col">Тариф
+                    <div class="input-group">
+                        <input type="text" class="form-control ">
+                        <button type="button" class="btn border dropdown-toggle dropdown-toggle-split"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                        </button>
+                    </div>
+                </div>
+            </div>
 
+            <div class="row pt-3 d-flex justify-content-md-start">
+                <div class="col-md-auto  m-0 pe-1">
+                    <input type="checkbox" class="p-0 m-0 ">
+                </div>
+                <div class="col-md-auto p-0"> Anti Tromboning</div>
+            </div>
+        </div>
 
+        <div class="card  d-flex   border-0  px-4 ">
+
+            <div class="row  pb-5">
+                <div class="card col-md-6 px-0 me-5">
+                    <div class="card-header">Ограничения</div>
+                    <div class="card-body">
+                        <table class="table table-borderless">
+                            <thead>
+                            <tr>
+                                <th scope="col"></th>
+                                <th scope="col">Вх</th>
+                                <th scope="col">Исх</th>
+                                <th scope="col">Все</th>
+                            </tr>
+                            </thead>
+                            <tr class="table table-borderless ">
+                                <th class="pe-5">Calls</th>
+                                <th><input class="container-fluid form-control"></th>
+                                <th><input class="container-fluid form-control"></th>
+                                <th><input class="container-fluid form-control"></th>
+                            </tr>
+                            <tr class="table table-borderless row-cols-4">
+                                <th>CPS</th>
+                                <th><input class="container-fluid form-control"></th>
+                                <th><input class="container-fluid form-control"></th>
+                                <th><input class="container-fluid form-control"></th>
+                            </tr>
+                            <tr class="table table-borderless">
+                                <th class="pe-5">AvgCPS</th>
+                                <th><input class="form-control"></th>
+                                <th><input class="container-fluid form-control"></th>
+                                <th><input class="container-fluid form-control"></th>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+
+                <div class="card col px-0 ">
+                    <div class="card-header d-flex  justify-content-between">Фильтр
+                        <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                            <button type="button" class="btn bg-white btn-outline-secondary"><img
+                                    src="plus_icon-icons.com_70890 (1).png"
+                                    height="10" width="10"/></button>
+                            <button type="button" class="btn  bg-white btn-outline-secondary"><img
+                                    src="minus-gross-horizontal-straight-line-symbol_icon-icons.com_74137.png"
+                                    height="10"
+                                    width="10"/></button>
+
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <table class="table ">
+                            <tbody>
+                            <tr class="table-success">
+                                <th scope="row"><input type="checkbox"></th>
+                                <td>CgPn=.(0.22)<br>InGW=gw*</td>
+                                <td><a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                         class="bi bi-gear-fill" viewBox="0 0 16 16">
+                                        <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+                                    </svg>
+                                </a></td>
+
+                            </tr>
+                            <tr class="table-danger">
+                                <th scope="row"><input type="checkbox"></th>
+                                <td>CgPn=.(0.22)<br>CgPC=.(0.22)</td>
+                                <td><a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                         class="bi bi-gear-fill" viewBox="0 0 16 16">
+                                        <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+                                    </svg>
+                                </a></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div class="card col px-0 " >
-        <div class="card-header d-flex  justify-content-between">Фильтр
-            <div class="btn-group btn-group-sm" role="group" aria-label="...">
-                <button type="button" class="btn  btn-outline-dark"><img src="plus_icon-icons.com_70890 (1).png"
-                                                                        height="10" width="10"/></button>
-                <button type="button" class="btn btn-outline-dark"><img
-                        src="minus-gross-horizontal-straight-line-symbol_icon-icons.com_74137.png" height="10"
-                        width="10"/></button>
-
-            </div></div>
-        <table class="table ">
-            <tbody>
-            <tr class="table-success">
-                <th scope="row"><input type="checkbox"></th>
-                <td>CgPn=.(0.22)<br>InGW=gw*</td>
-                <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
-                    <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
-                </svg></a> </td>
-
-            </tr>
-            <tr class="table-danger">
-                <th scope="row"><input type="checkbox"></th>
-                <td>CgPn=.(0.22)<br>CgPC=.(0.22)</td>
-                <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
-                    <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
-                </svg></a> </td>
-            </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
-</div>
-</div>
 </div>
 
-
+<div class="card border-bottom-0">
     <div class="card-header d-flex justify-content-between gy-5 g-5">
-       Список привязанных маршрутов
+        Список привязанных маршрутов
         <div class="btn-group btn-group-sm" role="group" aria-label="...">
-            <button type="button" class="btn  btn-outline-dark"><img src="plus_icon-icons.com_70890 (1).png"
-                                                                     height="10" width="10"/></button>
-            <button type="button" class="btn btn-outline-dark"><img
+            <button type="button" class="btn bg-white border-secondary"><img src="plus_icon-icons.com_70890 (1).png"
+                                                                             height="10" width="10"/></button>
+            <button type="button" class="btn bg-white btn-outline-secondary"><img
                     src="minus-gross-horizontal-straight-line-symbol_icon-icons.com_74137.png" height="10"
                     width="10"/></button>
 
         </div>
     </div>
 
+    <div class="card-body border-0">
+        <table class="table border-secondary">
+            <tbody>
+            <tr class="table">
+                <th></th>
+                <th>Название</th>
+                <th>Статус</th>
+                <th>Описание</th>
+                <th>Приоритет</th>
+                <th>Вес</th>
+                <th></th>
+            </tr>
 
-    <table class="table ">
-        <thead>
-        <tr>
-            <th scope="col"></th>
-            <th scope="col">Название</th>
-            <th scope="col">Статус</th>
-            <th scope="col">Описание</th>
-            <th scope="col">Приоритет</th>
-            <th scope="col">Вес</th>
-            <th scope="col"></th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr class="table">
-            <th scope="row"><input type="checkbox"></th>
-            <td><a href="#">route1</a></td>
-            <td><button type="button" class="btn btn-success">Работает</button></td>
-            <td>Маршрут1</td>
-            <td>1</td>
-            <td>100</td>
-            <td><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
-                <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
-            </svg></a></td>
+            <tr class="table">
+                <th scope="row"><input type="checkbox"></th>
+                <td><a href="#" class="text-decoration-none">route1</a></td>
+                <td>
+                    <button type="button" class="btn btn-success">Работает</button>
+                </td>
+                <td>Маршрут 1</td>
+                <td>1</td>
+                <td>100</td>
+                <td><a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                         class="bi bi-gear-fill" viewBox="0 0 16 16">
+                        <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+                    </svg>
+                </a></td>
 
+            </tr>
+            <tr class="table align-items-stretch">
+                <th scope="row"><input type="checkbox"></th>
+                <td><a href="#" class="text-decoration-none">route2</a></td>
+                <td>
+                    <button type="button" class="btn btn-danger">Заблокировано</button>
+                </td>
+                <td>Маршрут 2</td>
+                <td>2</td>
+                <td>150</td>
+                <td><a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+                         class="bi bi-gear-fill" viewBox="0 0 16 16">
+                        <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+                    </svg>
+                </a></td>
 
-        </tr>
-        <tr class="table align-items-center">
-            <th scope="row"><input type="checkbox"></th>
-            <td><a href="#">route2</a></td>
-            <td><button type="button" class="btn btn-danger">Заблокировано</button></td>
-            <td>Маршрут2</td>
-            <td>2</td>
-            <td>150</td>
-            <td><a href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
-                <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
-            </svg></a> </td>
-
-        </tr>
-        </tbody>
-    </table>
-
-
-
-
-
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
 
 <div class="cd-grid gap-2 d-md-flex justify-content-md-center">
-<div class="btn btn-outline-dark">Сохранить</div>
+    <div class="btn border">Сохранить</div>
 </div>
 </body>
 </html>
